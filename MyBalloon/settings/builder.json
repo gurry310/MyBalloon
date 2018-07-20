@@ -1,25 +1,30 @@
 {
   "appKey": "",
   "appSecret": "",
-  "encryptJs": true,
-  "excludeScenes": [],
+  "encryptJs": false,
+  "excludeScenes": [
+    "3443c20d-bfea-4b85-b6a8-6501e8cf4c1c",
+    "840dcfe6-9ed3-4321-9eec-3d4dcf41998d",
+    "94e995cd-f890-4ddf-b5a8-b8e83b67c4ca",
+    "6d2429a0-4505-40b8-8099-a4a48d8fd722"
+  ],
   "fb-instant-games": {},
   "includeAnySDK": false,
   "includeSDKBox": false,
   "inlineSpriteFrames": true,
   "inlineSpriteFrames_native": true,
   "jailbreakPlatform": false,
-  "md5Cache": false,
+  "md5Cache": true,
   "mergeStartScene": false,
   "oauthLoginServer": "",
   "optimizeHotUpdate": false,
   "orientation": {
-    "landscapeLeft": true,
-    "landscapeRight": true,
-    "portrait": false,
+    "landscapeLeft": false,
+    "landscapeRight": false,
+    "portrait": true,
     "upsideDown": false
   },
-  "packageName": "org.cocos2d.helloworld",
+  "packageName": "org.cocos2d.BPW",
   "privateKey": "",
   "qqplay": {
     "REMOTE_SERVER_ROOT": "",
@@ -27,11 +32,11 @@
   },
   "renderMode": "0",
   "startScene": "b1ac405b-82ae-40ff-b338-3599c4302775",
-  "title": "hello_world",
+  "title": "BPW",
   "webOrientation": "auto",
   "wechatgame": {
-    "REMOTE_SERVER_ROOT": "",
-    "appid": "wxd0195d90f49b3a3f",
+    "REMOTE_SERVER_ROOT": "https://bpw.blyule.com",
+    "appid": "wx53cdc20078b402a5",
     "isSubdomain": false,
     "orientation": "portrait",
     "subContext": ""
